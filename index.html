@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Welcome To HTML5</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <!--Introduction to headers-->
+        <h1>My first paragraph</h1>
+        <h2>Second header</h2>
+        <h3>Third</h3>
+        <h4><a href="link.html">Click to next page</a></h4>
+        <hr/>
+        <!--Introduction to paragraphs-->
+        <p id="blue"><strong>want this to be a bold line</strong> <em>I also want this text to be italic</em></p>
+        <p>Ensure to buy the following items <br>
+        <ul>
+            <li>Tomatoes</li>
+            <li>Potatoes</li>
+            <li>Onions</li>
+        </ul> </p><br>
+        <p>How to create an app
+            <ol>
+                <li>Identify language</li>
+                <li>Set the environment</li>
+                <li>Code the Program</li>
+                <li>Host the program</li>
+            </ol>
+        </p>
+        <form action="" method="post">
+            <fieldset class="form">
+                <legend>Personal Info</legend>
+                <label for="username">Name:</label>
+                    <input type="text" name="User Name" id="username" maxlength="20" size="25" value=""/><br/>
+                <label for="password">User Name:</label>
+                    <input type="password" id="password" name="Password" maxlength="10" size="25"/><br/>
+                What do you like to play?<br/>
+                Watch Movies: <input type="checkbox" name="spare_time[]" value="Sports"/>
+                Play Sports: <input type="checkbox" name="spare_time[]" value="Swimming"/>
+                PLay Computer Games: <input type="checkbox" name="spare_time[]" value="Walking"/><br/>
+                Do you play league of Legends <br/>
+                    <select>
+                    <option value= "Chips">Potatoe Chips</option>
+                    <option value= "Beaverage">Beaverage </option>
+                    <option value= "Main Meal"> Main Meal</option>
+                    <option value= "Juice">Juice </option>
+                    </select><br/>
+                </fieldset>
+                <fieldset class="select">
+                    <legend>Selection</legend>
+                    <label for="yes">Yes</label><input type="radio" id="yes" name="plays_lol" value="Yes"/>
+                    <label for="no">No</label><input type="radio" id="no" name="plays_lol" value="No"/>
+                </fieldset class="select">
+            Leave us a comment <textarea name="comment" rows="5" cols="10" > </textarea><br/>
+            Do you want to submit a file? <input type="file"/><br/>
+            <input type="submit"  value="submit"/><br/>
+            <input type="reset" value="reset"/><br/>
+        </form>
+    </body>
+</html>

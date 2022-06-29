@@ -1,0 +1,55 @@
+/*Get rid of the default Padding and Margins*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+header, article, section, aside, footer{
+    display: block;
+    font-display: Tahoma;
+}
+/* center website*/
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+.clear{
+    clear: both;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.top_nav{
+    float: left;
+    width: auto;
+}
+.top_nav ul li{
+    float: left;
+    padding: 10px;
+}
+/*Float aside and Main section*/
+.left_side{
+    float: left;
+    width: 600;
+}
+.right_side{
+    float: left;
+    width: 300;
+}
+/*Make footer clear floated elements*/
+.page_footer{
+    clear: both;
+    text-align: left;
+}
+.left_side article{
+    border: 2px solid greenyellow;
+    margin-right: 10px;
+    padding: 5px;
+}
+.right_side div{
+    border: 2px solid blue;
+    margin: 0px 10px;/*Top Left Bottom Right*/
+    padding: 5px;
+}
